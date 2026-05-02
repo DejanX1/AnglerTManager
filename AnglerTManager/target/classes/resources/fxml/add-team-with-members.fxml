@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controllers.management.AddTeamWithMembersController">
+   <children>
+      <TextField fx:id="txtTeamName" layoutX="141.0" layoutY="24.0" prefHeight="26.0" prefWidth="586.0" />
+      <Text layoutX="59.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naziv ekipe:" wrappingWidth="67.0693359375" />
+      <TextField fx:id="txtFirstName1" layoutX="68.0" layoutY="141.0" prefHeight="26.0" prefWidth="143.0" />
+      <Text layoutX="15.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prvi član tima" underline="true" wrappingWidth="95.291015625" />
+      <Text layoutX="27.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ime:" />
+      <Text layoutX="232.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prezime:" />
+      <TextField fx:id="txtLastName1" layoutX="284.0" layoutY="141.0" prefHeight="26.0" prefWidth="159.0" />
+      <Text layoutX="16.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drugi član tima" underline="true" />
+      <Text layoutX="27.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ime:" />
+      <TextField fx:id="txtFirstName2" layoutX="68.0" layoutY="224.0" prefHeight="26.0" prefWidth="143.0" />
+      <Text layoutX="232.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prezime:" />
+      <TextField fx:id="txtLastName2" layoutX="285.0" layoutY="223.0" prefHeight="26.0" prefWidth="159.0" />
+      <Text layoutX="16.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Treći član tima" underline="true" />
+      <Text layoutX="27.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ime:" />
+      <TextField fx:id="txtFirstName3" layoutX="68.0" layoutY="304.0" prefHeight="26.0" prefWidth="143.0" />
+      <Text layoutX="232.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prezime:" />
+      <TextField fx:id="txtLastName3" layoutX="285.0" layoutY="304.0" prefHeight="26.0" prefWidth="159.0" />
+      <Button layoutX="314.0" layoutY="401.0" mnemonicParsing="false" onAction="#handleSaveTeam" prefHeight="26.0" prefWidth="121.0" text="Sačuvaj" />
+      <Text layoutX="59.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naziv SRD-a:" />
+      <TextField fx:id="txtAssociation" layoutX="142.0" layoutY="67.0" prefHeight="26.0" prefWidth="586.0" />
+      <DatePicker fx:id="dpBirthDate1" layoutX="569.0" layoutY="141.0" prefHeight="26.0" prefWidth="159.0" />
+      <DatePicker fx:id="dpBirthDate2" layoutX="569.0" layoutY="223.0" prefHeight="26.0" prefWidth="159.0" />
+      <DatePicker fx:id="dpBirthDate3" layoutX="569.0" layoutY="304.0" prefHeight="26.0" prefWidth="159.0" />
+      <Text layoutX="478.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Datum rođenja:" />
+      <Text layoutX="478.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Datum rođenja:" />
+      <Text layoutX="478.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Datum rođenja:" />
+   </children>
+</AnchorPane>

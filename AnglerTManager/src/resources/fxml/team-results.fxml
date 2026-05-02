@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controllers.view.TeamResultController">
+   <children>
+      <TableView fx:id="tableTeamResults" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="colTeamName" prefWidth="213.60003662109375" text="NazivEkipe" />
+          <TableColumn fx:id="colRank" prefWidth="196.79998779296875" text="Plasman" />
+            <TableColumn fx:id="colTotalCatch" prefWidth="189.5999755859375" text="UkupnaMasaKg" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

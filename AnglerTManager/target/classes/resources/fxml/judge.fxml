@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controllers.view.JudgesViewController">
+   <children>
+      <TableView fx:id="tableJudges" prefHeight="367.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="58.4000244140625" text="IdSudije" />
+          <TableColumn fx:id="colFirstName" prefWidth="157.5999755859375" text="Ime" />
+            <TableColumn fx:id="colLastName" prefWidth="180.0" text="Prezime" />
+            <TableColumn fx:id="colLicense" prefWidth="204.0" text="Licenca" />
+        </columns>
+      </TableView>
+      <Button layoutX="246.0" layoutY="370.0" mnemonicParsing="false" onAction="#openAddJudgeWindow" prefHeight="26.0" prefWidth="107.0" text="Dodaj sudiju" />
+      <Button layoutX="402.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleDeleteJudge" text="Obriši selektrovanog sudiju" />
+   </children>
+</AnchorPane>

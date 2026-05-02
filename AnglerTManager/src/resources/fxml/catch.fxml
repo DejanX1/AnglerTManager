@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controllers.view.CatchViewController">
+   <children>
+      <TableView fx:id="tableCatches" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="52.79998779296875" text="IdUlova" />
+          <TableColumn fx:id="colCompetitor" prefWidth="144.00006103515625" text="Takmicar" />
+            <TableColumn fx:id="colFish" prefWidth="128.79998779296875" text="VrstaRibe" />
+            <TableColumn fx:id="colWeight" prefWidth="58.39996337890625" text="MasaKg" />
+            <TableColumn fx:id="colTime" prefWidth="124.0" text="VrijemeUlova" />
+            <TableColumn fx:id="colIdCompetition" prefWidth="99.199951171875" text="IdTakmicenja" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
