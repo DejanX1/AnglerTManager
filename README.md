@@ -1,5 +1,5 @@
 # AnglerTManager
-A Java-based desktop application for managing team-based angling competitions on lakes.
+A Java-based desktop application for managing team-based angling competitions, developed as a college project for a Databases class including a conceptual model, DDL (SQL) script and a functional demo.
 
 ## Project Overview
 This system is engineered for real-world practical application in sport fishing. It solves the complexity of organizing team tournaments by automating the drawing process and providing instant, live leaderboards based on catch data entered directly from the field.
